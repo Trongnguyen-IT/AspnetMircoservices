@@ -1,9 +1,7 @@
-using Catalog.API.Data.Interfaces;
 using Catalog.API.Data;
-using Catalog.API.Repositories.Interfaces;
+using Catalog.API.Data.Interfaces;
 using Catalog.API.Repositories;
-using Microsoft.Extensions.Diagnostics.HealthChecks;
-using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Catalog.API.Repositories.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
